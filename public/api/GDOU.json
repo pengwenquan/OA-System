@@ -1,0 +1,8 @@
+{
+  "code": 200,
+  "data": [
+    {"id": 1, "imgurl": "/image/GDOU/1.jpg"},
+    {"id": 2, "imgurl": "/image/GDOU/2.jpg"},
+    {"id": 3, "imgurl": "/image/GDOU/3.jpg"}
+  ]
+}

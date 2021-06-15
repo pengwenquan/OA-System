@@ -111,7 +111,13 @@
   "devDependencies": {
     "babel-loader": "^7.1.2",
     "babel-plugin-import": "^1.8.0",
+    "husky": "^6.0.0",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"git commit trigger husky pre-commit hook\" "
+    }
   }
 }

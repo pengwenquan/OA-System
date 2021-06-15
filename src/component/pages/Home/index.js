@@ -31,7 +31,7 @@ class Home extends Component {
     let { banner } = this.state
     return  banner.map(item =>(
       <div className="swiper-slide" key={item.id}>
-        <img src={item.imgurl} />
+        <img src={item.imgurl} alt=" " />
       </div>
     ))  
   }

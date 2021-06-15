@@ -6,9 +6,6 @@ import echarts from 'echarts'
 
 
 class Scole extends Component {
-  constructor (props) {
-    super(props)
-  }
   componentDidMount () {
     let echart = echarts.init(this.el)
     echart.setOption({
